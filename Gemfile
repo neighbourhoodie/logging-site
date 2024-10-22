@@ -44,3 +44,5 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
+# Locking dependencies for compatibility purposes
+gem "ffi", "~> 1.14.0"
